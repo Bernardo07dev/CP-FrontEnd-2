@@ -1,3 +1,26 @@
 .container {
     margin-top: 50px;
 } 
+
+
+.navbar {
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+/* Estilo dos links */
+.custom-nav {
+  display: flex;
+  gap: 40px; /* Aumenta o espaço entre os itens */
+}
+
+.custom-nav .nav-link {
+  font-size: 1.3rem;   /* aumenta ainda mais o tamanho da letra */
+  color: black !important; /* muda cor pra preto */
+  padding: 8px 12px;
+}
+
+/* Deixa o item ativo em negrito */
+.custom-nav .nav-link.active {
+  font-weight: bold;
+}
